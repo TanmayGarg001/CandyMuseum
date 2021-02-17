@@ -1,0 +1,131 @@
+/*
+Made by - Tanmay Garg.
+Date - 11/9/2020.
+A fictional Candy of Mueseum using HTML5 and CSS3 and Bootstrap4.  
+A front end project.
+
+Tested on :-
+Internet Explorer,Google Chrome,Opera,Mozilla Firefox,Safari,MicrosoftEdge.
+
+Information source regarding candies:-
+candyhistory.net 
+//http website not secured! Visit at your own risk!
+//NOTE:- website is not encrypted, Using VPN or a safe network is recommended.
+ */
+body {
+  background-color: #f5d9d5;
+  font-family: "Nunito", sans-serif;
+  padding: 1px;
+}
+#mainNavbar {
+  background-color: #ffc8ddea;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+  font-size: 1.75rem;
+  font-weight: 600;
+  transition: 0.25s;
+}
+#mainNavbar .navbar-brand:hover {
+  border-bottom: 3px solid #ef476f;
+}
+#mainNavbar .nav-link {
+  color: #f72585;
+  transition: 0.5s;
+}
+#mainNavbar .nav-link:hover {
+  color: #7209b7;
+  font-weight: 500;
+  transform: translateY(-0.05em);
+  box-shadow: 0 0.5em 0em -0.35em #ef476f;
+}
+.navbar-toggler {
+  background-color: #ef476e67;
+  border-radius: 10%;
+}
+#heading h1 {
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #faf9f9;
+  font-size: 3.85rem;
+}
+#heading span {
+  color: #ee4266;
+}
+@media (max-width: 1375px) {
+  #heading h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #faf9f9;
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1110px) {
+  #heading h1 {
+    text-transform: uppercase;
+    font-weight: 100;
+    color: #faf9f9;
+    font-size: 2.65rem;
+  }
+}
+.content {
+  font-size: 1.65rem;
+  color: #ff5c8a;
+}
+h2 {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #ad2831de;
+}
+@media (max-width: 1150px) {
+  .content {
+    font-size: 1.4rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+@media (max-width: 1080px) {
+  .content {
+    font-size: 1.25rem;
+  }
+  h2 {
+    font-size: 3.3rem;
+  }
+}
+@media (max-width: 1050px) {
+  .content {
+    font-size: 1.15rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1300px) {
+  .content {
+    font-size: 1.325rem;
+  }
+  h2 {
+    font-size: 3.3rem;
+  }
+}
+img {
+  border-radius: 40%;
+}
+.top-row {
+  padding-top: 7%;
+  margin-bottom: 5.5%;
+}
+@media (max-width: 992px) {
+  .top-row {
+    padding-top: 14%;
+    padding-bottom: 3%;
+  }
+}
+p {
+  padding-top: 0;
+  padding-bottom: 10%;
+}
